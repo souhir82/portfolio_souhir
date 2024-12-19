@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: cairo;
+}
+body{
+    height: 1300px;
+}
+ul {
+    background-color: #ccc;
+    text-align: center;
+    
+}
+
+ul li {
+    display:inline-block;
+    padding: 20px;
+}
+ul li a {
+    text-decoration: none;
+    color:black;
+}
+ul li a:hover{
+    color:blue;
+}
+
+.img-header{
+    width:100%;
+}
+.features{
+    width:80%;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.features h2{
+    margin-bottom: 50px;
+    color: rgb(245, 129, 148);
+    font-size: 25px;
+    
+}
+.all_features{
+    display: flex;
+    justify-content: space-between;
+}
+.feature{
+    text-align: center;
+    width:30%;
+    background-color: #eee;
+    height: 180px;
+    border-radius: 10px;
+    padding-top: 15px;
+    transition: all 0.25s;
+    
+}
+.feature:hover{
+    background-color: #fff;
+    box-shadow: 3px 3px 10px rgb(184, 119, 119);
+    cursor: pointer;
+}
+.feature i{
+    font-size: 50px;
+    color:red;
+    margin-bottom:10px;
+}
+.feaure h3{
+    margin-top: 5px;
+    color:red;
+    font-size: 20px;
+
+}
+.feature p{
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+/*********End of features *******/
+.my-photos{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.my-photos h2{
+    margin-bottom: 50px;
+    color:rgb(245, 129, 148);
+}
+.all_photos{
+    display: flex;
+    justify-content: space-between;
+}
+.photo{
+    width:32%;
+    cursor: pointer;
+}
+.photo:hover{
+    transform: scale(1.5);
+    
+}
+.photo img{
+    width:100%;
+}
+/*********End of images *******/
+/*my certif*/
+.my-certif{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.my-certif h2{
+    margin-bottom: 50px;
+    color:rgb(245, 129, 148);
+}
+.all_certif{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  gap: 10px 20px; /* row-gap column gap */
+  row-gap: 10px;
+  column-gap: 20px;
+}
+.cert{
+    width:40%;
+    cursor: pointer;
+}
+.cert:hover{
+    transform: scale(1.5);
+    
+}
+.cert img{
+    width:100%;
+}
+/*********End of certif *******/
+
+
+
+
+.our-contact{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    
+    margin-top: 50px;
+    
+}
+.our-contact h2{
+    margin-bottom: 50px;
+    color:rgb(245, 129, 148);
+}
+.contact{
+   
+    padding: 30px;
+    text-align: center;
+    background-color: #eee;
+}
+.form-contact{
+    width:80%;
+    margin: auto;
+    
+    
+
+}
+.form-input{
+    margin-bottom :20px;
+}
+.form-input input{
+    width:70%;
+    height:30px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+
+}
+
+.form-input textarea {
+    width:62%;
+    height:100px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.btn-send{
+    background-color: rgb(236, 234, 234);
+    width:150px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.btn-send:hover{
+    background-color: rgb(160, 159, 157);
+    cursor: pointer;
+}
+
+footer{
+    background-color: #ccc;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    font-family: cairo;
+    
+}
+
+.about-section{
+    margin:auto;
+        margin-top: 50px;
+    display: flex;
+    background-color: #eee;
+   
+
+    
+}
+.about-section h2{
+    margin: 30px;
+    font-size: 20px;
+    color:red;
+
+}
+.info{
+    text-align: center;
+    font-weight: bolder;
+
+}
+.my_pic{
+    margin:30px;
+}
